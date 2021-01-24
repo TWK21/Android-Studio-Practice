@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="3" android:versionName="3.0" package="com.TriviaFlic.terry.triviaflic">
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="26" />
+	<application android:theme="resourceId:0x7f0c0005" android:label="TRIVIAFLIC" android:icon="res/mipmap-xxxhdpi-v4/ic_launcher.png" android:allowBackup="true" android:supportsRtl="true" android:roundIcon="res/mipmap-xxxhdpi-v4/ic_launcher_round.png">
+		<activity android:name="com.example.terry.triviaflic.MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.example.terry.triviaflic.PlayActivity" />
+		<activity android:name="com.example.terry.triviaflic.RulesActivity" />
+		<activity android:name="com.example.terry.triviaflic.AcademicActivity" />
+		<activity android:name="com.example.terry.triviaflic.ClassActivity" />
+		<activity android:name="com.example.terry.triviaflic.ClubActivity" />
+		<activity android:name="com.example.terry.triviaflic.HolidayActivity" />
+		<activity android:name="com.example.terry.triviaflic.SportActivity" />
+		<activity android:name="com.example.terry.triviaflic.TeacherActivity" />
+		<meta-data android:name="android.support.VERSION" android:value="26.1.0" />
+		<meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT" />
+		<meta-data android:name="com.android.vending.derived.apk.id" android:value="1" />
+	</application>
+</manifest>
